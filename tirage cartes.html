@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Accueil - Tirage cartes</title>
+        <link rel="icon" type="image/x-icon" href="logo/favicon.ico">
+        <link rel="stylesheet" href="tirage carte.css">
+    </head>
+
+    <body id="body">
+
+        <header id="header" class="header">
+            <h1>TIRAGE ALEATOIRE DE CARTES</h1>
+        </header>
+
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a href="index.html">TIRAGE</a></li>
+                <li><a href="footer">A PROPOS</a></li>
+            </ul>
+        </nav>
+
+        <main class="main">
+            <section class="sG"></section>
+
+            <section id="sC" class="sC">
+                <form>
+                    <label>Combien de joueurs ?</label>
+                    <input type="number" id="number" class="number">
+                </form>
+                <div>
+                    <img id="carteVerso" class="carteVerso" src="photos/cartes/joker.jpg">
+                    <img id="carteTouree" class="carteTouree" src="photos/cartes/interro.jpg">
+                </div>
+                <div>
+                    <p class="compteur" id="compteur">Début de Tirage</p>
+                    <input class="refresh" id="refresh" type="button" value="">
+                </div>
+                <div class="footer" id="footer"></div>
+            </section>
+
+            <section class="sD"></section>
+        </main>
+
+        <footer></footer>
+    
+
+            <script src="tirage carte.js"></script>
+        </body>
+    </html>
+
